@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+ipython
+pytest
+cobra==0.31.1
+swiglpk==5.0.13
+reportlab
+pypdf

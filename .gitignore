@@ -1,0 +1,39 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+.venv/
+
+# Local generated experiment outputs.
+archive/
+reports/
+results/
+models/
+hpc_bundles/
+exchange/
+artifacts/
+# Generated experiment folders are evidence bundles, not source code. Keep
+# them locally or restore them from artifact storage; do not accidentally add
+# multi-gigabyte reruns to source control.
+data/*/
+data/*.csv
+data/*.json
+data/*.npz
+data/*.md
+data/design_benchmark_exact_rollouts/
+figures/*.png
+figures/*.svg
+external_models/
+
+# Generated publication artifacts. Keep report builders and Markdown sources in
+# git; regenerate PDFs/TeX outputs locally when needed.
+*.pdf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+YEAST_DIGITAL_TWIN_*_REPORT.tex
+figures/scientific_report/
